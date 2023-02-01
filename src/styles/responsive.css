@@ -1,0 +1,131 @@
+@media screen and (max-width: 650px)  {
+  .app-bar{
+    display: grid;
+    width: 100%;
+  }
+  .app-bar__menu{
+    width: 100%;
+  }
+  .hero{
+    background-image: url('../public/images/heros/hero-image_2-small.jpg');
+  }
+  .content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .restaurants {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin: 32px 0;
+  }
+  .restaurant-menu{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .restaurant-picture{
+    max-width: 500px;
+    align-items: center;
+  }
+  footer{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 651px) and (max-width: 800px){
+  .app-bar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 8px 32px;
+    width: 100%;
+  }
+  .app-bar .app-bar__brand h1 {
+    font-size: 1.5em;
+  }
+  .app-bar .app-bar__menu {
+    display: none;
+    width: 100%;
+  }
+  .app-bar .app-bar__navigation {
+    position: static;
+    width: 100%;
+  }
+  .app-bar .app-bar__navigation ul li {
+    display: inline-block;
+  }
+  .app-bar .app-bar__navigation ul li a {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin: 0;
+  }
+  .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .restaurant-picture{ 
+    width: 100%;
+    align-items: center;
+  }
+  .hero{
+    background-image: url('../public/images/heros/hero-image_2-small.jpg');
+  }
+}
+
+  @media screen and (min-width: 801px) {
+    .app-bar {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      padding: 8px 32px;
+      width: 100%;
+    }
+  
+    .app-bar .app-bar__brand h1 {
+      font-size: 1.5em;
+    }
+  
+    .app-bar .app-bar__menu {
+      display: none;
+    }
+  
+    .app-bar .app-bar__navigation {
+      position: static;
+      width: 100%;
+    }
+  
+    .app-bar .app-bar__navigation ul li {
+      display: inline-block;
+    }
+  
+    .app-bar .app-bar__navigation ul li a {
+      display: inline-block;
+      width: 120px;
+      text-align: center;
+      margin: 0;
+    }
+
+    .app-bar .app-bar__brand h1 {
+      font-size: 2em;
+    }    
+    .content {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .hero{
+      background-image: url('../public/images/heros/hero-image_2-large.jpg');
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .content {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .hero{
+      background-image: url('../public/images/heros/hero-image_2-large.jpg');
+    }
+  }
+  
+  @media screen and (min-width: 1600px) {
+    .content {
+      grid-template-columns: repeat(5, 1fr);
+    }
+    .hero{
+      background-image: url('../public/images/heros/hero-image_2-large.jpg');
+    }
+  }
+  
