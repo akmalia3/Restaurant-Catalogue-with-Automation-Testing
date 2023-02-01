@@ -1,1 +1,1 @@
-# Restaurant-Catalogue-with-Automation-Testing
+# Restaurant Catalogue PWA + Testing and Optimized
